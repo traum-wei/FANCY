@@ -1,0 +1,120 @@
+/* ===============writings-page============== */
+.writing {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.writing article {
+  width: 75%;
+  max-width: 1000px;
+}
+
+.writing h1 {
+  font-size: 3.6rem;
+  margin: 25px 0;
+  line-height: 1.5;
+}
+
+.writing h2 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  color: #f46036;
+}
+
+.writing h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #e3172c;
+}
+
+.writing img {
+  margin: 20px auto;
+}
+
+.writing p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.writing-date {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.writing p > a {
+  color: blue;
+  display: inline;
+}
+
+/* ----------writing-sidebar---------- */
+
+.writing-sidebar {
+  /* width: 100%; */
+  max-width: 250px;
+}
+
+.writing-sidebar h3 {
+  border-bottom: 1px solid #888;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.writing-list {
+  background-color: #e7ecef;
+  padding: 20px;
+}
+
+.writing-list li {
+  margin-bottom: 30px;
+}
+
+.writing-list a {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #888;
+}
+
+.writing-list h4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.writing-list p {
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 960px) {
+  .writing article {
+    padding: 0 10px;
+  }
+
+  .writing h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .writing {
+    flex-direction: column;
+  }
+
+  .writing article {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .writing-sidebar {
+    max-width: 100%;
+    /* width: 100%; */
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .writing p {
+    font-size: 1.8rem;
+  }
+}

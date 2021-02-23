@@ -1,0 +1,16 @@
+/* ipad */
+@media screen and (max-width:768px){
+  .hn-list{
+    margin: 0;
+  }
+
+  .hn-list > li > a{
+    padding: 0;
+  }
+
+  footer nav {
+    padding: 20 0;
+  }
+
+
+}
